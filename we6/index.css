@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+.home {
+    height: 100vh;
+    padding: 20px;
+}
+
+
+.header .logo {
+    width: 100px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.header .contant {
+    background-color: rgb(255, 102, 0);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(238, 232, 197);
+    padding: 20px;
+}
+a:hover {
+    color: black ;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+
+h1 {
+    font-size: 40x;
+    margin-bottom: 10px;
+    font-weight: 900;
+
+}
+.container .text p {
+    font-weight: 300;
+    margin-bottom: 40px;
+    line-height: 1,4;
+    width: 60%;
+    
+}
+
+.btn {
+    background-color: rgb(255, 102, 0);
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: 300;
+}
+.btn:hover {
+    background-color: transparent;
+    color: black ;
+    border: 1px solid black;
+}
+.g1 {
+    animation:animation1 1s ease-out;
+}
+@keyframes animation1 {
+    0% {
+        transform: translate(500px);
+    }
+    100% {
+        transform: translate(0);
+    }
+
+
+
+}
+@media (max-width:900px) {
+    .header {
+        margin: 1rem;
+    }
+
+}
+.ground {
+    padding: 50px;
+    background-image: url(photo_2024-07-18_13-30-10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.ground h1 {
+    color: aliceblue;
+
+}
+
+.collection {
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: 300;
+    
+}
+
+footer {
+    background-color: rgb(255, 102, 0);
+    display: flex;
+    padding:  50px;
+    justify-content: space-between;
+}
+
+
+
+
+
+.who {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+
+
+.about{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+
+}
